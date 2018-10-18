@@ -1,3 +1,10 @@
+
+.idea
+spring-boot-freemarker-zetcode.iml
+*~
+target
+
+
 # Compiled class file
 *.class
 
