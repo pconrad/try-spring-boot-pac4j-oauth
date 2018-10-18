@@ -22,9 +22,15 @@ import org.springframework.core.io.FileSystemResource;
 
 import java.io.File;
 
+
+
+
 @Configuration
 public class Pac4jConfig {
 
+    @ComponentScan(basePackages = "org.pac4j.springframework.web")
+    
+    
     @Value("${salt}")
     private String salt;
 
